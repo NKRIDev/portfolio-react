@@ -1,14 +1,15 @@
 import { AppProvider } from "./contexts/AppContext";
 import LanguageToggle from "./components/LanguageToggle";
 import { HomePage } from "./components/HomePage";
+import { ThemeToggle } from "./components/ThemeToggle";
 
 function App() {
   return (
     <AppProvider>
-      <div>
-        {/* TODO : to testing language system */}
-        <HomePage></HomePage>
-        <LanguageToggle></LanguageToggle>
+      <div className="bg-red-200 dark:bg-black min-h-screen">
+        <HomePage />
+        <LanguageToggle />
+        <ThemeToggle />
       </div>
     </AppProvider>
   )
