@@ -76,8 +76,10 @@ export const AppProvider: React.FC<AppProviderProps> = ({ children }) => {
     const setTheme = (theme: Theme) => {
         setThemeState(theme);
         localStorage.setItem("theme", theme);
+        /*
         console.log("theme", theme);
         console.log("local-storage", localStorage.getItem("theme"));
+        */
     }
 
     //change theme mod (auto)

@@ -2,8 +2,13 @@
  * Skate
  */
 export interface Translations {
-    test: {
-        title: string;
+    nav: {
+        home: string;
+        about: string;
+        timeline: string;
+        projects: string;
+        skills: string;
+        contact: string;
     }
 }
 
@@ -15,13 +20,23 @@ export interface Translations {
  */
 export const translations: Record<"fr" | "en", Translations> = {
     fr: {
-        test: {
-            title: "Bonjour !"
+        nav: {
+            home: 'Accueil',
+            about: 'À propos',
+            timeline: 'Parcours',
+            projects: 'Projets',
+            skills: 'Compétences',
+            contact: 'Contact'
         }
     },
     en: {
-        test: {
-            title: "Hello !"
+        nav: {
+            home: 'Home',
+            about: 'About',
+            timeline: 'Journey',
+            projects: 'Projects',
+            skills: 'Skills',
+            contact: 'Contact'
         }
     }
 }
