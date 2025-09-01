@@ -27,7 +27,7 @@ const Home = () => {
                 ))}
             </div>
 
-            {/* Main content */}
+            {/* Maincontent */}
             <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
                 <div className="mb-8">
                     <h1 className="text-5xl md:text-7xl font-bold text-slate-800 dark:text-white mb-6 leading-tight">
