@@ -1,5 +1,6 @@
 import { AppProvider } from "./contexts/AppContext";
 import Header from "./components/Header";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <Header></Header>
 
         <main>
-
+          <Home></Home>
         </main>
       </div>
     </AppProvider>
